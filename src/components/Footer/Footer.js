@@ -33,7 +33,7 @@ export default function Footer(props) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <Link to="/landing-page" className={classes.block}>
+              <Link to="/" className={classes.block}>
                 FVast
               </Link>
             </ListItem>

@@ -59,7 +59,7 @@ export default function LoginPage(props) {
                     <div className={classes.socialLine}>
                       <Button
                         justIcon
-                        to="#pablo"
+                        href="#pablo"
                         target="_blank"
                         color="transparent"
                         onClick={(e) => e.preventDefault()}
@@ -68,7 +68,7 @@ export default function LoginPage(props) {
                       </Button>
                       <Button
                         justIcon
-                        to="#pablo"
+                        href="#pablo"
                         target="_blank"
                         color="transparent"
                         onClick={(e) => e.preventDefault()}
@@ -77,7 +77,7 @@ export default function LoginPage(props) {
                       </Button>
                       <Button
                         justIcon
-                        to="#pablo"
+                        href="#pablo"
                         target="_blank"
                         color="transparent"
                         onClick={(e) => e.preventDefault()}
