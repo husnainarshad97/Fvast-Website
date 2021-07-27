@@ -34,7 +34,7 @@ export default function SectionLogin() {
                   <div className={classes.socialLine}>
                     <Button
                       justIcon
-                      href="#pablo"
+                      to="#pablo"
                       target="_blank"
                       color="transparent"
                       onClick={(e) => e.preventDefault()}
@@ -43,7 +43,7 @@ export default function SectionLogin() {
                     </Button>
                     <Button
                       justIcon
-                      href="#pablo"
+                      to="#pablo"
                       target="_blank"
                       color="transparent"
                       onClick={(e) => e.preventDefault()}
@@ -52,7 +52,7 @@ export default function SectionLogin() {
                     </Button>
                     <Button
                       justIcon
-                      href="#pablo"
+                      to="#pablo"
                       target="_blank"
                       color="transparent"
                       onClick={(e) => e.preventDefault()}

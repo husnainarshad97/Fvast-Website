@@ -51,8 +51,8 @@ export default function TeamSection() {
                 >
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  some <a to="#pablo">links</a> for people to be able to follow
+                  them outside the site.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -97,8 +97,8 @@ export default function TeamSection() {
                 >
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  some <a to="#pablo">links</a> for people to be able to follow
+                  them outside the site.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -143,8 +143,8 @@ export default function TeamSection() {
                 >
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  some <a to="#pablo">links</a> for people to be able to follow
+                  them outside the site.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>

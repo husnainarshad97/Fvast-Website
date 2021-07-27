@@ -27,7 +27,6 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        
         <CustomDropdown
           noLiPadding
           buttonText="Company"
@@ -40,14 +39,14 @@ export default function HeaderLinks(props) {
             <Link to="/privacy" className={classes.dropdownLink}>
               Privacy
             </Link>,
-            <a href="/terms" className={classes.dropdownLink}>
+            <a to="/terms" className={classes.dropdownLink}>
               Terms and Conditions
             </a>,
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button href="/aboutus" color="transparent" className={classes.navLink}>
+        <Button to="/aboutus" color="transparent" className={classes.navLink}>
           {/* <CloudDownload className={classes.icons} /> */}
           About Us
         </Button>
@@ -64,7 +63,7 @@ export default function HeaderLinks(props) {
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
-          <Button href="#" color="transparent" className={classes.navLink}>
+          <Button to="#" color="transparent" className={classes.navLink}>
             <i className={classes.socialIcons + " fab fa-twitter"} />
           </Button>
         </Tooltip>
@@ -78,7 +77,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/husnainmairajarshad"
+            to="https://www.facebook.com/husnainmairajarshad"
             target="_blank"
             className={classes.navLink}
           >
@@ -95,7 +94,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/ch_husnain_sagar"
+            to="https://www.instagram.com/ch_husnain_sagar"
             target="_blank"
             className={classes.navLink}
           >

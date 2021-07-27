@@ -42,7 +42,7 @@ export default function SectionNavbars() {
                 <List className={classes.list}>
                   <ListItem className={classes.listItem}>
                     <Button
-                      href="#pablo"
+                      to="#pablo"
                       className={classes.navLink}
                       onClick={(e) => e.preventDefault()}
                       color="transparent"
@@ -52,7 +52,7 @@ export default function SectionNavbars() {
                   </ListItem>
                   <ListItem className={classes.listItem}>
                     <Button
-                      href="#pablo"
+                      to="#pablo"
                       className={classes.navLink}
                       onClick={(e) => e.preventDefault()}
                       color="transparent"
@@ -144,7 +144,7 @@ export default function SectionNavbars() {
               <List className={classes.list}>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -154,7 +154,7 @@ export default function SectionNavbars() {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -193,7 +193,7 @@ export default function SectionNavbars() {
               <List className={classes.list}>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink + " " + classes.navLinkActive}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -203,7 +203,7 @@ export default function SectionNavbars() {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -213,7 +213,7 @@ export default function SectionNavbars() {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -231,7 +231,7 @@ export default function SectionNavbars() {
               <List className={classes.list}>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink + " " + classes.navLinkActive}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -241,7 +241,7 @@ export default function SectionNavbars() {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -251,7 +251,7 @@ export default function SectionNavbars() {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -269,7 +269,7 @@ export default function SectionNavbars() {
               <List className={classes.list}>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -279,7 +279,7 @@ export default function SectionNavbars() {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -291,7 +291,7 @@ export default function SectionNavbars() {
                   <Button
                     justIcon
                     round
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.notificationNavLink}
                     onClick={(e) => e.preventDefault()}
                     color="rose"
@@ -333,7 +333,7 @@ export default function SectionNavbars() {
               <List className={classes.list}>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -343,7 +343,7 @@ export default function SectionNavbars() {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.navLink}
                     onClick={(e) => e.preventDefault()}
                     color="transparent"
@@ -353,7 +353,7 @@ export default function SectionNavbars() {
                 </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
-                    href="#pablo"
+                    to="#pablo"
                     className={classes.registerNavLink}
                     onClick={(e) => e.preventDefault()}
                     color="rose"
